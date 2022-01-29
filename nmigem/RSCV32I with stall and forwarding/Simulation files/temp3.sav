@@ -1,0 +1,43 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sun Jan 16 15:38:21 2022
+[*]
+[dumpfile] "/home/sumanth/Documents/nmigen/test.vcd"
+[dumpfile_mtime] "Sun Jan 16 15:23:52 2022"
+[dumpfile_size] 130297
+[savefile] "/home/sumanth/Documents/nmigen/temp3.sav"
+[timestart] 0
+[size] 1856 1016
+[pos] -1 -1
+*-20.706839 2999900 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[sst_width] 233
+[signals_width] 190
+[sst_expanded] 1
+[sst_vpaned_height] 289
+@28
+top.clk
+@22
+top.IF.Pc[4:0]
+top.IF.out[31:0]
+top.ID.instruction[31:0]
+top.ID.des[4:0]
+top.ID.s1[4:0]
+top.ID.s2[4:0]
+@28
+top.$signal$1029
+@22
+top.ID.s1_data_in[31:0]
+top.ID.s2_data_in[31:0]
+top.ALU.Ra[31:0]
+top.ALU.Rb[31:0]
+top.ALU.result[31:0]
+top.memory.alu_result[31:0]
+top.reg_file.write_addr[4:0]
+top.reg_file.write_data[31:0]
+top.reg_file.$signal$5[31:0]
+top.reg_file.$signal$8[31:0]
+top.reg_file.load_Rs2_addr[4:0]
+top.reg_file.write_Rs2_data[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
