@@ -1,1 +1,41 @@
 
+sw r3 r0(1)  --  storing in memory
+sw r2 r0(2)  --  storing in memory
+sw r1 r0(3)  --  storing in memory
+
+
+addi r6  r0  1 -- A = 1
+addi r10 r0  3 -- n = 3
+addi r4  r0 -1 -- i = -1
+
+main_loop:
+addi r4  r4  1 -- i = i + 1
+bge  r4  r10 exit -- if i>=n exit
+addi r5  r4  1    --  j  = i + 1
+
+inner_loop:
+bge r5  r10  main_loop
+add r8  r5  r6        --     addr of a[j]
+add r9  r4  r6        --     addr of a[i]
+lw r11  r8(0)         --     a[j]
+lw r12  r9(0)         --     a[i]
+bge r11  r12  b1
+sw  r12  r8(0)        --    swap
+sw  r11  r9(0)        --    swap
+addi r5 r5 1
+jump innerloop
+
+
+b1:
+addi r5 r5 1
+jump inner_loop
+
+
+IF  ID  EX  MEM  WB
+
+    IF  ID  EX   MEM  WB
+    
+    
+    addi r4  r0 -1
+    addi r4  r4 1
+    bge  r4  r5 78
