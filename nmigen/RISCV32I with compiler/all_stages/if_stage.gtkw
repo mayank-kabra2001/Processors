@@ -1,7 +1,0 @@
-[dumpfile] "/home/sumanth/Documents/nmigen/all_stages/if_stage.vcd"
-[dumpfile_size] 6637
-[treeopen] top.
-@22
-top.Pc$1[4:0]
-top.Pc[4:0]
-top.if_stage.out[31:0]
